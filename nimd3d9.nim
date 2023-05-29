@@ -93,7 +93,7 @@ proc main() =
 
   ShowWindow(hwnd, SW_SHOW)
   initD3D(hwnd)
-  UpdateWindow(hwnd)
+  # UpdateWindow(hwnd)
 
   while GetMessage(msg, 0, 0, 0) != 0:
     TranslateMessage(msg)
