@@ -2,7 +2,6 @@ import winim/lean
 
 {.passL: "Lib/x64/d3d9.lib".}
 
-# {.link: "d3d9.lib"}
 {.emit:"""
 #include "Include/d3d9.h"
 
